@@ -11,7 +11,7 @@ List of devices and protocols used:
 - STM32 — I2C target / sensor (TODO)
 
 Data flow:
-- (TODO)
+- (TODO SCREENSHOT)
 
 # Project Structure
 - `analysis/`: Contains a Jupyter notebook for analyzing sensor data in BigQuery
@@ -21,8 +21,8 @@ Data flow:
 
 # Deployment Steps
 - Set up a GCP project and enable the necessary APIs
-  - ```gcp auth application-default login```
-  - ```gcp set project <your-project-id>```
+  - ```gcloud auth application-default login```
+  - ```gcloud config set project <project-id>```
 - Create a terraform.tfvars file with the following variables set:
   - `project-id`: Your GCP project ID
   - `region`: The GCP region for deployment

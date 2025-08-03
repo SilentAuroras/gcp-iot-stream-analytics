@@ -8,6 +8,10 @@
 *.tfstate
 *.tfstate.*
 .terraform.tfstate.lock.info
+.terraform.lock.hcl
+
+# Zip files for cloud run zip
+*.zip
 
 # Terraform crash logs
 crash.log
