@@ -20,6 +20,7 @@ Data flow:
 - `ingest/`: Contains terraform and GCP cloud run functions for ingesting sensor data into GCP BigQuery
 
 # Deployment Steps
+- GCloud CLI installed
 - Set up a GCP project and enable the necessary APIs
   - ```gcloud auth application-default login```
   - ```gcloud config set project <project-id>```
