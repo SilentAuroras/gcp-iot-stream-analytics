@@ -3,6 +3,9 @@
 .vscode/
 *.code-workspace
 
+# Arduino WiFi secrets
+secrets.h
+
 # Terraform state files
 **/.terraform/*
 *.tfstate

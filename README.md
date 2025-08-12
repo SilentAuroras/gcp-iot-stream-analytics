@@ -21,6 +21,8 @@ Data flow:
 
 # Deployment Steps
 - GCloud CLI installed
+- Enable APIs
+  -  Cloud Functions API
 - Set up a GCP project and enable the necessary APIs
   - ```gcloud auth application-default login```
   - ```gcloud config set project <project-id>```
